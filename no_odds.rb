@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby
 
+#  === 7 kyu, No oddities here ===
+#
 # Write a small function that returns the values of an array
 # that are not odd.
-
+#
 # All values in the array will be integers. Return the good
 # values in the order they are given.
-#
-#  === 7 kyu, No oddities here ===
 
 def no_odds(values)
   no_odd_values = []
