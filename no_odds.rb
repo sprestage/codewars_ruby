@@ -8,12 +8,10 @@
 
 def no_odds(values)
   no_odd_values = []
-  count = 0
 
   values.each do |x|
     if x % 2 == 0
-      no_odd_values[count] = x
-      count = count + 1
+      no_odd_values << x
     end
   end
   return no_odd_values
