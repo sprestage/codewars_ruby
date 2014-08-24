@@ -7,15 +7,14 @@
 # values in the order they are given.
 
 def no_odds(values)
-  @values = values
-  @no_odd_values = []
-  @count = 0
+  no_odd_values = []
+  count = 0
 
-  @values.each do |x|
+  values.each do |x|
     if x % 2 == 0
-      @no_odd_values[@count] = x
-      @count = @count + 1
+      no_odd_values[count] = x
+      count = count + 1
     end
   end
-  return @no_odd_values
+  return no_odd_values
 end

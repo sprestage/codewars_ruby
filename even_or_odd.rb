@@ -5,7 +5,5 @@
 
 
 def even_or_odd(number)
-  @number = number
-
-  @result = @number % 2 == 0 ? "Even": "Odd"
+  number % 2 == 0 ? "Even": "Odd"
 end
