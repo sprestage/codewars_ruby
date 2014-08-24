@@ -10,9 +10,7 @@ def no_odds(values)
   no_odd_values = []
 
   values.each do |x|
-    if x % 2 == 0
-      no_odd_values << x
-    end
+    no_odd_values << x if (x % 2 == 0)
   end
   return no_odd_values
 end
