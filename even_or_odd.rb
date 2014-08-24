@@ -2,6 +2,8 @@
 
 # Write a function called square that takes an argument and
 #  returns the square of it.
+#
+#  === 8 kyu, Even or Odd ===
 
 
 def even_or_odd(number)
